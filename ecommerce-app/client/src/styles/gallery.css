@@ -1,0 +1,80 @@
+
+/* card */
+
+/* .event--gallery{
+    margin: 30px;
+    
+} */
+
+.videodiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+video{
+  
+    margin: 20px;
+}
+.middle-title{
+    font-size: 50px;
+    text-align: center;
+
+}
+.card{
+    margin: 20px;
+    margin-bottom: 0;
+    
+ 
+}
+
+.card--list{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+   
+    margin-bottom: 0;
+    
+
+}
+
+
+.card--img{
+    width: 300px;
+    height: 300px;
+    border-radius: 5px;
+    /* margin: 0;
+    padding: 0; */
+}
+
+.card--info{
+    display: flex;
+    flex-direction: column;
+    /* vertical-align: middle; */
+    width: 350px;
+    font-size: 12px;
+    padding-left: 16px;
+}
+
+.card--title{
+    font-family: 'Tenor Sans';
+    /* padding: 0;
+    margin: 0; */
+    
+}
+.card--price{
+    font-family: 'Spline Sans';
+    font-weight: 300;  
+    /* padding: 0;
+    margin: 0;  */
+}
+
+
+.all--list{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    margin-bottom: 0;
+}

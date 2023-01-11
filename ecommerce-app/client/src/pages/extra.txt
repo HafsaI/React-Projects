@@ -1,0 +1,14 @@
+  {/* <div className = 'product--inc' onClick={() => handleQuantity("inc")} /> */}
+
+{/* <div className="productsDisplay">
+        {listOfProducts.map((product) => {
+          return (
+            <div>
+              <h6>Name: {product.name}</h6>
+              <h6>Age: {product.age}</h6>
+              <h6>Username: {product.username}</h6>
+              <h6>School: {product.school}</h6>
+            </div>
+          );
+        })}
+      </div> */}
