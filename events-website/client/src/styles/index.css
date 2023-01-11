@@ -1,0 +1,58 @@
+body {
+	background: rgb(206, 206, 206);
+}
+
+.t-button-box {
+	width: 230px;
+	margin: 35px auto;
+	position: relative;
+	border-radius: 10px;
+	background:rgb(215, 215, 215);
+    /* padding: 10px; */
+}
+
+.t-toggle-btn {
+	padding: 10px 20px;
+	cursor: pointer;
+	background: transparent;
+	border: 0;
+	outline: none;
+	position: relative;
+	text-align: center;
+}
+
+.tr-toggle-btn {
+	padding: 10px 30px;
+    padding-left: 35px;
+	cursor: pointer;
+	background: transparent;
+	border: 0;
+	outline: none;
+	position: relative;
+	text-align: center;
+}
+
+
+.t-btn {
+   
+	left: 0;
+	top: 0;
+	position: absolute;
+	width: 115px;
+	height: 100%;
+	background: #4187FE;
+	border-radius: 10px;
+	transition: .5s;
+    font-weight: bold;
+}
+
+.t-form-box {
+    visibility: hidden;
+}
+
+@media screen and (max-width: 600px) {
+    .t-form-box {
+      visibility: visible;
+    }
+  }
+  

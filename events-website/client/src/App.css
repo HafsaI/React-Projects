@@ -1,0 +1,13 @@
+@font-face {
+font-family: "Misto";
+src: local("Misto"),
+ url("./fonts/misto.ttf") format("truetype");
+font-weight: bold;
+}
+
+.font-m {
+ font-family: "Misto";
+}
+
+
+
